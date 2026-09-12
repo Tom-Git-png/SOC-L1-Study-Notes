@@ -1,0 +1,9 @@
+题库：
+
+1.SQL 注入漏洞 数字型。
+
+2.利用 git 仓库指令获取 flag。
+
+3.php://filter/read=convert.base64-encode/resource=flag 利用64编制源码机制绕开 php限制。
+
+4.SQL 注入漏洞 。

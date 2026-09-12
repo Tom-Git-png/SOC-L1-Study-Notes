@@ -8,16 +8,16 @@ VOL3工具目录：
 
 Lockdown关卡：
 
-1.确认镜像基础信息：vol.exe -f memdump.mem windows.info
+1.确认镜像基础信息：vol.exe -f memdump.mem windows.info。
 
-2.列出内存镜像里面全部 Windows 服务（核心插件 windows.svcscan）：vol.exe -f memdump.mem windows.svcscan
+2.列出内存镜像里面全部 Windows 服务（核心插件 windows.svcscan）：vol.exe -f memdump.mem windows.svcscan。
 
-3.筛选可疑程序：看进程树 pstree，看父进程（服务进程）派生陌生子 exe
+3.筛选可疑程序：看进程树 pstree，看父进程（服务进程）派生陌生子 exe。
 
--vol.exe -f memdump.mem windows.pstree
+-vol.exe -f memdump.mem windows.pstree。
 
 找到陌生 exe，再看它的命令行完整磁盘路径。
 
--vol.exe -f memdump.mem windows.cmdline
+-vol.exe -f memdump.mem windows.cmdline。
 
-4.w3wp.exe= IIS 应用程序池工作进程
+4.w3wp.exe= IIS 应用程序池工作进程。
