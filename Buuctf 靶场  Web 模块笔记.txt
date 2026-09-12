@@ -5,4 +5,4 @@
 
 3.php://filter/read=convert.base64-encode/resource=flag 利用64编制源码机制绕开 php限制。
 
-4.SQL 注入漏洞 。
+4.SQL 注入漏洞 
